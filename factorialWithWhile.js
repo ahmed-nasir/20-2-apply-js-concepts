@@ -14,10 +14,10 @@
 
 
 function getFactorial(num) {
-    let factorial = num;
-    let i = 1;
+    let factorial = 1;
+    let i = num;
     while (i >= 1) {
-        factorial = factorial * num;
+        factorial = factorial * i;
         i--;
     }
     return factorial;
